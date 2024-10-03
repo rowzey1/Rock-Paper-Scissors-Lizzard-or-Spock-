@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="UTF-8">
+
+	<title>Rock, Paper, Scissors, Lizzard or Spock?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+     
+ <h1>Rock, Paper, Scissors, Lizzard or Spock?</h1>
+     
+  <p>A bot has challenged you to a game. <strong>Rock</strong> crushes <strong>scissors</strong>, <strong>scissors</strong> cuts <strong>paper</strong>, <strong>paper</strong> covers <strong>rock</strong>, <strong>rock</strong> crushes <strong>lizard</strong>, <strong>lizard</strong> poisons <strong>spock</strong>, <strong>spock</strong> smashes <strong>scissors</strong>, <strong>scissors</strong> decapitates <strong>lizard</strong>, <strong>lizard</strong> eats <strong>paper</strong>, <strong>paper</strong> disproves <strong>spock</strong>,and <strong>spock</strong> vaporizes <strong>rock</strong>.</p>
+  <img class="center" src="explanation.jpeg"/>
+     
+  <h2>Choose Wisely</h2>
+  <div class="button">
+     <button id="rock">Rock</button>
+     
+     <button id="paper">Paper</button>
+     
+     <button id="scissors">Scissors</button>
+     
+     <button id="spock">Spock</button>
+     
+     <button id="lizard">Lizard</button>
+ </div>
+   <div class="scoreboard">
+     <h3>Scoreboard</h3>
+    <table class="score">
+     <tbody>
+        <tr>
+           <td id="humanScore">0</td>
+           <td id="computerScore">0</td>
+        </tr>
+     </tbody>
+     <tfoot>
+        <tr>
+           <th> You </th>
+           <th> Bot </th>
+        </tr>
+     </tfoot>
+    </table>
+   </div>
+   <div id="status"></div>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

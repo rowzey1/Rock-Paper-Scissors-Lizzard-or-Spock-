@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+
+h1,h2,h3,#status{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Oxanium';
+    font-size: 30px;
+}
+
+h2{
+    font-family: 'Oxanium';
+    font-size: 25px;
+}
+
+h3{
+    border-bottom:2px solid black;
+    font-family: 'Oxanium';
+    font-size: 25px;
+}
+
+p{
+    text-align: center;
+    font-family: 'Oxanium';
+    font-size: 15px;
+}
+
+#status{
+    font-family: 'Oxanium';
+    font-size: 15px; 
+    color:red
+}
+
+.center{
+    width:25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#humanScore,#computerScore{
+    border:2px solid black;
+    text-align: center;
+}
+
+tr{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+th,td{
+    margin: 0 4px 4px 4px;
+    font-family: 'Oxanium';
+    font-size: 20px;
+}
+ 
+
+button{
+    background: black;
+    color:white;
+    text-align: center;
+    width:7%;
+    margin: 0 3px 0 3px;
+    font-family: 'Oxanium';
+    font-size: 20px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.score{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
